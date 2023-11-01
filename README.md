@@ -2,7 +2,7 @@
 
 ## Overview
 
-![](./imgs/preview.jpg)
+![](./imgs/preview.png)
 
 ### Links
 
