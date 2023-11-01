@@ -6,7 +6,7 @@
 
 ### Links
 
-- Solution URL: [Site](weather-search-box.netlify.app)
+- Solution URL: [Site](https://weather-search-box.netlify.app)
 
 ### Built with
 
