@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #06283d;
+  max-width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  background-color: white;
+  width: 350px;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+  justify-content: space-between;
+
+  padding: 30px;
+  border-radius: 15px;
+
+  transition: height 5s ease-in-out;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.country-name {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.country-name input {
+  padding: 12px 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+
+  border: none;
+}
+
+input:focus {
+  outline: 0;
+}
+
+button {
+  max-width: 80%;
+  border: none;
+  border-radius: 50%;
+  padding: 10px;
+
+  display: flex;
+
+  cursor: pointer;
+}
+
+.curr-weather {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  padding-block: 30px;
+}
+
+.container .curr-weather img {
+  width: 70%;
+}
+
+.curr-temp {
+  padding-bottom: 10px;
+}
+
+.curr-temp p {
+  font-weight: bold;
+  text-align: center;
+}
+
+.curr-temp p:nth-child(1) {
+  font-weight: 100;
+  text-align: center;
+  font-size: 48px;
+  line-height: 60px;
+}
+
+.curr-temp p span {
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.curr-statistic {
+  display: flex;
+  justify-content: space-between;
+}
+
+.wind-speed i,
+.humidity i {
+  max-width: 100%;
+}
+
+.curr-statistic .humidity,
+.curr-statistic .wind-speed {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.curr-humidity p:nth-child(1),
+.wind-speed p:nth-child(1) {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.curr-humidity p:nth-child(2),
+.wind-speed p:nth-child(2) {
+  font-size: 14px;
+}
+
+.error-message {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+
+  padding-block: 20px;
+}
+
+img {
+  width: 30px;
+  height: auto;
+}
